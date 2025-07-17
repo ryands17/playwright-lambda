@@ -10,7 +10,7 @@ export default $config({
     };
   },
   async run() {
-    const api = new sst.aws.Function('TestLambda', {
+    const api = new sst.aws.Function('TestPuppeteer', {
       url: true,
       memory: '1 GB',
       timeout: '1 minute',
